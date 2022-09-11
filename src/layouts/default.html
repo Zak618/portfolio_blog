@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <title>Rolan WebStudio</title>
+   <!--<a href="https://www.flaticon.com/free-icons/web-development" title="web development icons">Web development icons created by surang - Flaticon</a>-->
+   <link rel="shortcut icon" href="assets/images/coding.png" type="image/png">
+    {{> head }}
+</head>
+<body>
+
+    <div class="page" id="page">
+        <!-- Header -->
+        {{> header }}
+
+        <!-- Sidebar -->
+        {{> sidebar }}
+
+        <!-- Main -->
+        <main class="main">
+            <div class="container">
+                {{> body }}
+            </div>
+        </main>
+    </div>
+
+
+    {{> story-modal }}
+    {{> contact-modal }}
+    {{> share-modal }}
+    
+    
+
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
